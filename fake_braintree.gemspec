@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.required_ruby_version = Gem::Requirement.new(">= 1.9.3")
 
-  s.add_dependency 'activesupport'
-  s.add_dependency 'braintree', '~> 2.32'
-  s.add_dependency 'capybara', '>= 2.2.0'
+  # s.add_dependency 'activesupport'
+  # s.add_dependency 'braintree', '~> 2.32'
+  # s.add_dependency 'capybara', '>= 2.2.0'
   s.add_dependency 'sinatra', '>= 1.4.7'
 
-  # s.add_development_dependency 'rake'
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec', '~> 3.2'
   s.add_development_dependency 'timecop', '~> 0.6'
   s.add_development_dependency 'capybara-webkit'
